@@ -24,6 +24,5 @@ jobs:
         id: fa
         with:
           app-name: 'ycipp7qrap' # Change this to your function app name (eg cippdh4ch)
-          slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_238802FD407847A782CF1E39A5CDF0B2 }} # Change this to your repository secret name
